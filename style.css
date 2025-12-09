@@ -1,17 +1,19 @@
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;   
 
+
 }
 
 section {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
 section h3 {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 
@@ -19,33 +21,34 @@ section p {
     border: 2px solid #ccc;
     background-color: #f8f8f8;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     width: fit-content;
+    background-image: url(blac.avif);
 }
 
 
 button {
     padding: 10px 20px;
-    margin: 5px;
+    margin: 8px;
     border: none;
     background-color: #e0e0e0;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: background-color 1s;
 }
 
 
 button:hover {
-    background-color: #c5c5c5;
+    background-color: #8b8b8b;
 }
 
 
 .vrai {
-    background-color: #4CAF50 ; 
-    color: white;
+    background-color: #42a806 ; 
+    color: rgb(255, 255, 255);
 }
 
 .faux {
-    background-color: #e53935 ;
-    color: white;
+    background-color: #ff0400 ;
+    color: rgb(255, 255, 255);
 }

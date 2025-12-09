@@ -17,8 +17,8 @@ boutons.forEach(bouton => {
         boutons.forEach(b => {
             if (b.id.endsWith(question)) {
                 b.classList.remove("vrai", "faux");
-            }
-        });
+        }
+});
 
         
         if (bonnesReponses[bouton.id]) {
@@ -26,5 +26,7 @@ boutons.forEach(bouton => {
         } else {
             bouton.classList.add("faux");
         }
-    });
+
 });
+});
+
